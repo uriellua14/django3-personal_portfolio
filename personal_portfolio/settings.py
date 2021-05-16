@@ -122,6 +122,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATIC_FILES = [ ]
+
 MEDIA_URL = '/media/'
 
 # Default primary key field type
@@ -133,7 +135,7 @@ MEDIA_ROOT =  BASE_DIR / 'media'
 
 STATIC_ROOT = BASE_DIR / 'static'
 
-STATIC_FILES = [ ]
+
 
 try:
     from .local_settings import * 
